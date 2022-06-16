@@ -11,20 +11,25 @@ var ScreenMenu = cc.Layer.extend({
         this._super();
         var size = cc.director.getVisibleSize();
 
-        var yBtn = 3*size.height/5;
+        // var yBtn = 3*size.height/5;
+        //
+        // var btnNetwork = gv.commonButton(200, 64, cc.winSize.width/4, yBtn,"Network");
+        // this.addChild(btnNetwork);
+        // btnNetwork.addClickEventListener(this.onSelectNetwork.bind(this));
+        //
+        // var btnLocalization = gv.commonButton(200, 64, cc.winSize.width/2, yBtn,"Localize");
+        // this.addChild(btnLocalization);
+        // btnLocalization.addClickEventListener(this.onSelectLocalization.bind(this));
+        //
+        // var btnDragonbones = gv.commonButton(200, 64, 3*cc.winSize.width/4, yBtn,"Dragonbone");
+        // this.addChild(btnDragonbones);
+        // btnDragonbones.addClickEventListener(this.onSelectDragonbones.bind(this));
 
-        var btnNetwork = gv.commonButton(200, 64, cc.winSize.width/4, yBtn,"Network");
-        this.addChild(btnNetwork);
-        btnNetwork.addClickEventListener(this.onSelectNetwork.bind(this));
-
-        var btnLocalization = gv.commonButton(200, 64, cc.winSize.width/2, yBtn,"Localize");
-        this.addChild(btnLocalization);
-        btnLocalization.addClickEventListener(this.onSelectLocalization.bind(this));
-
-        var btnDragonbones = gv.commonButton(200, 64, 3*cc.winSize.width/4, yBtn,"Dragonbone");
-        this.addChild(btnDragonbones);
-        btnDragonbones.addClickEventListener(this.onSelectDragonbones.bind(this));
-
+        // let nodeUI = ccs.load("ui/main/mainScene.json", "").node;
+        // this.addChild(nodeUI);
+        let header = new NavBar();
+        // header.setPosition(cc.winSize.width / 2, 100);
+        this.addChild(header);
     },
     onEnter:function(){
         this._super();

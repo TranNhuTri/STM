@@ -2,7 +2,6 @@
  * Created by GSN on 6/2/2015.
  */
 
-
 var res = {
     //font
     FONT_BITMAP_NUMBER_1:"fonts/number_1.fnt",
