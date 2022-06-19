@@ -1,4 +1,4 @@
-let Map = BaseUI.extend({
+let MapUI = BaseUI.extend({
     ctor: function () {
         this._super(LOBBY_UI.MAP);
 

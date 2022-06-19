@@ -1,76 +1,40 @@
-let Lobby = cc.Node.extend({
-    _numberOfTreasureSlots: 4,
-    _offset: 30,
-
+let MainScene = cc.Scene.extend({
     ctor: function () {
         this._super();
+
+        this._background = ccui.ImageView(MAIN_SCENE.BACKGROUND);
+        this._background.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+        this.addChild(this._background);
+
+        this.addHeader();
+
+        this.addNavBar();
+
+        this.addLobby();
     },
 
-    initUI: function () {
-        this.addPlayerInfo();
-        this.addTreasureSlots();
-        this.addFightButton();
-        this.addMap();
+    addHeader: function () {
+      this._header = new Header();
 
-        let popup = new TreasurePopup();
-        popup.setPosition(0, 0);
-        this.addChild(popup, 100);
+      this._header.setPosition(cc.winSize.width / 2, cc.winSize.height - this._header.getHeight() / 2);
+      this.addChild(this._header, 0);
     },
 
-    setWidth: function (width) {
-        this._width = width;
+    addNavBar: function () {
+        this._navBar = new NavBar();
+
+        this._navBar.setPosition((cc.winSize.width - this._navBar.getWidth())/ 2, 0)
+        this.addChild(this._navBar, 0);
     },
 
-    getWidth: function () {
-        return this._width;
-    },
+    addLobby: function () {
+        let lobby = new Lobby();
+        lobby.setWidth(cc.winSize.width);
+        lobby.setHeight(cc.winSize.height - this._navBar.getHeight() - this._header.getHeight());
 
-    setHeight: function (height) {
-        this._height = height;
-    },
+        lobby.initUI();
 
-    getHeight: function () {
-        return this._height;
-    },
-
-    addMap: function () {
-        this._map = new Map();
-        this._map.setPosition(0, this._fightButton.y + (this._fightButton.getHeight() + this._map.getHeight()) / 2 + this._offset);
-        this.addChild(this._map);
-    },
-
-    addFightButton: function () {
-        this._fightButton = new FightButton();
-        let treasureSlot = this._treasureSlots[0];
-
-        this._fightButton.setPosition(0, treasureSlot.y + treasureSlot.getHeight() + this._fightButton.getHeight() / 2 + this._offset / 2);
-        this.addChild(this._fightButton);
-    },
-
-    addPlayerInfo: function () {
-        this._playerInfo = new PlayerInfo();
-        this._playerInfo.setPosition(0, this._height / 2 - this._playerInfo.getHeight() / 2 + 10);
-        this.addChild(this._playerInfo);
-    },
-
-    addTreasureSlots: function () {
-        this._treasureSlots = [];
-        let startPos = -cc.winSize.width / 2, space = cc.winSize.width;
-
-        for(let i = 0; i < this._numberOfTreasureSlots; i++) {
-            let treasureSlot = new TreasureSlot();
-
-            cc.eventManager.addListener(treasureSlot.getTouchListener().clone(), treasureSlot);
-            space -= treasureSlot.getWidth();
-
-            this._treasureSlots.push(treasureSlot);
-            this.addChild(treasureSlot);
-        }
-
-        space = space / (this._numberOfTreasureSlots + 1);
-        for(let i = 0; i < this._numberOfTreasureSlots; i++) {
-            this._treasureSlots[i].setPosition(startPos + space, -1 * this._height / 2 + this._offset);
-            startPos = startPos + this._treasureSlots[i]._width + space;
-        }
+        lobby.setPosition(cc.winSize.width / 2, cc.winSize.height / 2);
+        this.addChild(lobby, 1);
     }
 });
