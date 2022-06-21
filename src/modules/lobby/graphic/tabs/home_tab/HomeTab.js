@@ -2,8 +2,8 @@ let HomeTab = Tab.extend({
     _numberOfTreasureSlots: 4,
     _offset: 30,
 
-    ctor: function () {
-        this._super();
+    ctor: function (width, height) {
+        this._super(width, height);
     },
 
     initUI: function () {
@@ -11,11 +11,10 @@ let HomeTab = Tab.extend({
         this.addTreasureSlots();
         this.addFightButton();
         this.addMap();
-        // this.addTreasurePopup();
     },
 
     addMap: function () {
-        this._map = new Map();
+        this._map = new MapUI();
         this._map.setPosition(0, this._fightButton.y + (this._fightButton.getHeight() + this._map.getHeight()) / 2 + this._offset);
         this.addChild(this._map);
     },
@@ -54,10 +53,4 @@ let HomeTab = Tab.extend({
             startPos = startPos + this._treasureSlots[i]._width + space;
         }
     },
-
-    addTreasurePopup: function () {
-        let treasurePopup = new TreasurePopup();
-        treasurePopup.setPosition(0, 0);
-        this.addChild(treasurePopup, 100);
-    }
 });

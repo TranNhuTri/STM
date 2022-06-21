@@ -1,0 +1,381 @@
+{
+  "ID": "0e0f78ea-e52a-4b1e-8b1d-54ea3925bfde",
+  "Version": "2.3.4",
+  "Name": "playerInfo",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 231,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_home_playaer.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 208,
+            "Scale9OriginY": 40,
+            "Scale9Width": 216,
+            "Scale9Height": 44,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -316.0,
+            "RightMargin": -316.0,
+            "TopMargin": -62.0,
+            "BottomMargin": -62.0,
+            "Tag": 232,
+            "ActionTag": -1620613899,
+            "Size": {
+              "X": 632.0,
+              "Y": 124.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_avatar.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 12,
+            "Scale9OriginY": 12,
+            "Scale9Width": 13,
+            "Scale9Height": 13,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -264.8773,
+              "Y": 7.9995
+            },
+            "Scale": {
+              "ScaleX": 1.5,
+              "ScaleY": 1.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -283.3773,
+            "RightMargin": 246.3773,
+            "TopMargin": -26.4995,
+            "BottomMargin": -10.5005,
+            "Tag": 234,
+            "ActionTag": 1674594172,
+            "Size": {
+              "X": 37.0,
+              "Y": 37.0
+            },
+            "Name": "avar",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_avatar_border.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 44,
+            "Scale9OriginY": 48,
+            "Scale9Width": 47,
+            "Scale9Height": 50,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -264.3945,
+              "Y": 7.9997
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -331.8945,
+            "RightMargin": 196.8945,
+            "TopMargin": -80.9997,
+            "BottomMargin": -65.0003,
+            "Tag": 233,
+            "ActionTag": -960116173,
+            "Size": {
+              "X": 135.0,
+              "Y": 146.0
+            },
+            "Name": "avar_border",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 18,
+            "LabelText": "UNSTOPABLE",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -140.3878,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -227.8878,
+            "RightMargin": 52.8878,
+            "TopMargin": -21.5,
+            "BottomMargin": -5.5,
+            "Tag": 235,
+            "ActionTag": 793737111,
+            "Size": {
+              "X": 175.0,
+              "Y": 27.0
+            },
+            "Name": "player_name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_panel_box.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 52,
+            "Scale9OriginY": 14,
+            "Scale9Width": 56,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 206.0096,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 126.0096,
+            "RightMargin": -286.0096,
+            "TopMargin": -30.5,
+            "BottomMargin": -14.5,
+            "Tag": 244,
+            "ActionTag": 1112976418,
+            "Size": {
+              "X": 160.0,
+              "Y": 45.0
+            },
+            "Name": "cup_background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_icon_trophy.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 34,
+            "Scale9Width": 38,
+            "Scale9Height": 37,
+            "AnchorPoint": {
+              "ScaleX": 0.5924,
+              "ScaleY": 0.6141
+            },
+            "Position": {
+              "X": 125.2449,
+              "Y": 13.9881
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 61.2685,
+            "RightMargin": -169.2685,
+            "TopMargin": -54.5119,
+            "BottomMargin": -50.4881,
+            "Tag": 245,
+            "ActionTag": 306561498,
+            "Size": {
+              "X": 108.0,
+              "Y": 105.0
+            },
+            "Name": "cup_image",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "93.774",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 210.1617,
+              "Y": 8.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "G": 218,
+              "B": 54
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 163.1617,
+            "RightMargin": -257.1617,
+            "TopMargin": -22.5,
+            "BottomMargin": -6.5,
+            "Tag": 246,
+            "ActionTag": -598712563,
+            "Size": {
+              "X": 94.0,
+              "Y": 29.0
+            },
+            "Name": "number_of_cups",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/SVN-Supercell Magic.ttf",
+        "../../../images/common/common_avatar.png",
+        "../../../images/common/common_avatar_border.png",
+        "../../../images/common/common_icon_trophy.png",
+        "../../../images/lobby/lobby_card_panel_box.png",
+        "../../../images/lobby/lobby_home_playaer.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

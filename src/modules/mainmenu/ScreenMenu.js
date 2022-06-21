@@ -27,9 +27,10 @@ var ScreenMenu = cc.Layer.extend({
 
         // let nodeUI = ccs.load("ui/main/mainScene.json", "").node;
         // this.addChild(nodeUI);
-        let header = new NavBar();
-        // header.setPosition(cc.winSize.width / 2, 100);
-        this.addChild(header);
+        let cardData = new Card(CARD_TYPE.TOWER.CANNON_OWL, 20, 10);
+        let card = new CardUI(cardData);
+        card.setPosition(100, cc.winSize.height / 2);
+        this.addChild(card);
     },
     onEnter:function(){
         this._super();

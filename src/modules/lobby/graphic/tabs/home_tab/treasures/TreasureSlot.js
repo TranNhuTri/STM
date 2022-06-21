@@ -70,8 +70,9 @@ let TreasureSlot = cc.Node.extend({
     },
 
     handleClick: function () {
-        this._state = (this._state + 1) % 4;
-        this.switchLayer();
+        // this._state = (this._state + 1) % 4;
+        // this.switchLayer();
+        LobbyController.getInstance().setTreasurePopUpVisible(true);
     },
 
     _touchListener: cc.EventListener.create({

@@ -1,7 +1,7 @@
 let Header = cc.Node.extend({
     ctor: function () {
         this._super();
-        this._background = new ccui.ImageView(MAIN_SCENE.HEADER.background);
+        this._background = new ccui.ImageView(LOBBY.HEADER.background);
         this._resourceBarScale = 0.8;
 
         this._width = this._background.width;
@@ -22,7 +22,7 @@ let Header = cc.Node.extend({
     addResourceBars: function () {
         this._resourceBars = [];
 
-        let configs = MAIN_SCENE.HEADER.resources;
+        let configs = LOBBY.HEADER.resources;
         for(let i = 0; i < configs.length; i++) {
             let resourceBar = new ResourceBar(configs[i]);
             resourceBar.setScale(this._resourceBarScale);
@@ -32,7 +32,7 @@ let Header = cc.Node.extend({
         }
 
         cc.log(this._resourceBars[0].width * this._resourceBarScale);
-        this._resourceBars[0].setPosition(-1 * (this._resourceBars[0].getWidth() * this._resourceBarScale + MAIN_SCENE.HEADER.distanceBetweenResources) / 2, 5);
-        this._resourceBars[1].setPosition((this._resourceBars[0].getWidth() * this._resourceBarScale + MAIN_SCENE.HEADER.distanceBetweenResources) / 2, 5);
+        this._resourceBars[0].setPosition(-1 * (this._resourceBars[0].getWidth() * this._resourceBarScale + LOBBY.HEADER.distanceBetweenResources) / 2, 5);
+        this._resourceBars[1].setPosition((this._resourceBars[0].getWidth() * this._resourceBarScale + LOBBY.HEADER.distanceBetweenResources) / 2, 5);
     },
 });

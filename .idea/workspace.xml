@@ -3,7 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="e4d55f2b-12a8-484d-a811-f49e89a3e91c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main_scene/graphic/MainScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main_scene/graphic/MainScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/localize_text/import/Localized_en" beforeDir="false" afterPath="$PROJECT_DIR$/assests/localize_text/import/Localized_en" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ui/MainScene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/resources/LobbyResources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/resources/LobbyResources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/Lobby.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/Lobby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/footer/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/footer/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/footer/NavButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/footer/NavButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/header/ResourceBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/header/ResourceBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/popup/TreasurePopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/popup/TreasurePopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/FightButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/FightButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/HomeTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/HomeTab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/MapUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/MapUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/PlayerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/PlayerInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/TreasureSlot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/TreasureSlot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/CountdownTreasureSlot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/CountdownTreasureSlot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/EmptyTreasureSlot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/EmptyTreasureSlot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/FinishTreasureSlot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/FinishTreasureSlot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/LockedTreasureSlot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/lobby/graphic/tabs/home_tab/treasures/treasure_slots/LockedTreasureSlot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mainmenu/ScreenMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/mainmenu/ScreenMenu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,10 +329,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Project/lgrc_project/client/HelloJavascript/src/framework/Framework.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res/images/card" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.searchVisible" value="true" />
@@ -328,16 +350,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Game\GameSrc\team_1_client\res\images\card" />
       <recent name="D:\Project\TemplateGame\src\framework\plugins" />
       <recent name="D:\Project\lgrc_project\client\HelloJavascript\src\network\auto" />
       <recent name="D:\Project\lgrc_project\client\HelloJavascript\src\game\render\effect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Game\GameSrc\team_1_client\res\images\common" />
+      <recent name="D:\Game\GameSrc\team_1_client\res\images\card" />
       <recent name="D:\Game\GameSrc\team_1_client\res\images\lobby" />
-      <recent name="D:\Game\GameSrc\team_1_client\src\modules\mainscence\graphic\header\resource_bar" />
-      <recent name="D:\Project\TemplateGame\src\framework" />
-      <recent name="D:\Project\lgrc_project\client\HelloJavascript\src\framework\gui" />
+      <recent name="D:\Game\GameSrc\team_1_client\src\modules\lobby\graphic\popup" />
+      <recent name="D:\Game\GameSrc\team_1_client\res\ui\lobby\popup" />
+      <recent name="D:\Game\GameSrc\team_1_client\src\modules\lobby\graphic\tabs\card_tab\card" />
     </key>
   </component>
   <component name="RunManager" selected="JSBinding.Win32Debug">
@@ -695,7 +718,21 @@
       <workItem from="1655261460490" duration="4496000" />
       <workItem from="1655273276151" duration="15325000" />
       <workItem from="1655303871349" duration="3425000" />
-      <workItem from="1655360593333" duration="680000" />
+      <workItem from="1655360593333" duration="3074000" />
+      <workItem from="1655363772078" duration="1320000" />
+      <workItem from="1655365160214" duration="8672000" />
+      <workItem from="1655380862174" duration="45000" />
+      <workItem from="1655380991339" duration="4504000" />
+      <workItem from="1655463256858" duration="97000" />
+      <workItem from="1655463543397" duration="323000" />
+      <workItem from="1655474832083" duration="5888000" />
+      <workItem from="1655536268129" duration="829000" />
+      <workItem from="1655578774058" duration="1461000" />
+      <workItem from="1655606942319" duration="7486000" />
+      <workItem from="1655615248736" duration="196000" />
+      <workItem from="1655617780277" duration="5971000" />
+      <workItem from="1655635353137" duration="8207000" />
+      <workItem from="1655695272644" duration="44000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,317 @@
+{
+  "ID": "821ce00a-c78a-49a4-a0b9-7b553cd433e8",
+  "Version": "2.3.4",
+  "Name": "cardPanel",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 412,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_banner.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 199,
+            "Scale9OriginY": 29,
+            "Scale9Width": 206,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -302.0,
+            "RightMargin": -302.0,
+            "TopMargin": -44.0,
+            "BottomMargin": -44.0,
+            "Tag": 413,
+            "ActionTag": -1318008784,
+            "Size": {
+              "X": 604.0,
+              "Y": 88.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "BỘ SƯU TẬP THẺ BÀI",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -118.9224,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 180,
+              "G": 215
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -264.9224,
+            "RightMargin": -27.0776,
+            "TopMargin": -14.5,
+            "BottomMargin": -14.5,
+            "Tag": 414,
+            "ActionTag": 804240185,
+            "Size": {
+              "X": 292.0,
+              "Y": 29.0
+            },
+            "Name": "title",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_btn_blue.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_btn_blue.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 164,
+            "Scale9Height": 89,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 184.2179,
+              "Y": -1.1572
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 87.2179,
+            "RightMargin": -281.2179,
+            "TopMargin": -54.3428,
+            "BottomMargin": -56.6572,
+            "Tag": 441,
+            "ActionTag": 2080244906,
+            "Size": {
+              "X": 194.0,
+              "Y": 111.0
+            },
+            "Name": "sort_button",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_panel_box.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 52,
+            "Scale9OriginY": 14,
+            "Scale9Width": 56,
+            "Scale9Height": 17,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.498
+            },
+            "Position": {
+              "X": 183.4447,
+              "Y": -0.5852
+            },
+            "Scale": {
+              "ScaleX": 1.0448,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 103.4447,
+            "RightMargin": -263.4447,
+            "TopMargin": -22.0048,
+            "BottomMargin": -22.9952,
+            "Tag": 442,
+            "ActionTag": 895813339,
+            "Size": {
+              "X": 160.0,
+              "Y": 45.0
+            },
+            "Name": "sort_button_layer",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "LabelText": "Theo cấp thẻ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 184.5509,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 117.5509,
+            "RightMargin": -251.5509,
+            "TopMargin": -9.5,
+            "BottomMargin": -9.5,
+            "Tag": 443,
+            "ActionTag": -278024190,
+            "Size": {
+              "X": 134.0,
+              "Y": 19.0
+            },
+            "Name": "sort_button_text",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../Default/Button_Disable.png",
+        "../../../fonts/SVN-Supercell Magic.ttf",
+        "../../../images/common/common_btn_blue.png",
+        "../../../images/lobby/lobby_card_banner.png",
+        "../../../images/lobby/lobby_card_panel_box.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

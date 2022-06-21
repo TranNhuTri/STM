@@ -3,7 +3,7 @@ let CountdownTreasureSlot = BaseUI.extend({
     _countdownTime: 0,
 
     ctor: function () {
-      this._super(LOBBY_UI.TREASURE_SLOTS.COUNT_DOWN_UI);
+      this._super(LOBBY_UI.HOME_TAB.TREASURE_SLOTS.COUNT_DOWN_UI);
 
       let node = this._child;
 

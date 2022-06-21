@@ -1,6 +1,6 @@
 let LockedTreasureSlot = BaseUI.extend({
     ctor: function () {
-        this._super(LOBBY_UI.TREASURE_SLOTS.LOCKED_UI);
+        this._super(LOBBY_UI.HOME_TAB.TREASURE_SLOTS.LOCKED_UI);
 
         let node = this._child;
 

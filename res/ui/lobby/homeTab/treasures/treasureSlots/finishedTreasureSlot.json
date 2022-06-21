@@ -1,0 +1,181 @@
+{
+  "ID": "5573b464-063d-4a31-9968-2a8b2a3e7ffd",
+  "Version": "2.3.4",
+  "Name": "finishedTreasureSlot",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 360,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_home_treasure_finished.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 47,
+            "Scale9OriginY": 60,
+            "Scale9Width": 49,
+            "Scale9Height": 64,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -71.5,
+            "RightMargin": -71.5,
+            "TopMargin": -92.0,
+            "BottomMargin": -92.0,
+            "Tag": 361,
+            "ActionTag": 887084339,
+            "Size": {
+              "X": 143.0,
+              "Y": 184.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/common/common_treasure.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 72,
+            "Scale9OriginY": 66,
+            "Scale9Width": 76,
+            "Scale9Height": 69,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.35,
+              "ScaleY": 0.35
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -110.0,
+            "RightMargin": -110.0,
+            "TopMargin": -100.5,
+            "BottomMargin": -100.5,
+            "Tag": 365,
+            "ActionTag": -569784917,
+            "Size": {
+              "X": 220.0,
+              "Y": 201.0
+            },
+            "Name": "treasure_image",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 16,
+            "LabelText": "Mở ngay",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0002,
+              "Y": -53.3522
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -50.4998,
+            "RightMargin": -50.5002,
+            "TopMargin": 41.3522,
+            "BottomMargin": -65.3522,
+            "Tag": 366,
+            "ActionTag": -1166037646,
+            "Size": {
+              "X": 101.0,
+              "Y": 24.0
+            },
+            "Name": "open_text",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../../fonts/SVN-Supercell Magic.ttf",
+        "../../../../../images/common/common_treasure.png",
+        "../../../../../images/lobby/lobby_home_treasure_finished.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

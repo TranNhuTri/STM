@@ -1,0 +1,138 @@
+{
+  "ID": "f0f798e5-1c4c-4961-9614-8ca7be6d591a",
+  "Version": "2.3.4",
+  "Name": "cardDesk",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 315,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_deck.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 225,
+            "Scale9OriginY": 199,
+            "Scale9Width": 232,
+            "Scale9Height": 206,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.93,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -341.0,
+            "RightMargin": -341.0,
+            "TopMargin": -302.0,
+            "BottomMargin": -302.0,
+            "Tag": 316,
+            "ActionTag": 1085836617,
+            "Size": {
+              "X": 682.0,
+              "Y": 604.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "BỘ BÀI CHIẾN ĐẤU",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -107.0681,
+              "Y": 259.4274
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 253,
+              "B": 153
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -237.5681,
+            "RightMargin": -23.4319,
+            "TopMargin": -273.9274,
+            "BottomMargin": 244.9274,
+            "Tag": 317,
+            "ActionTag": 1908323459,
+            "Size": {
+              "X": 261.0,
+              "Y": 29.0
+            },
+            "Name": "title",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../fonts/SVN-Supercell Magic.ttf",
+        "../../../images/lobby/lobby_card_deck.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

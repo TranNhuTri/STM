@@ -1,0 +1,180 @@
+{
+  "ID": "a30df06a-4c30-4f42-8565-05ae583c7fd3",
+  "Version": "2.3.4",
+  "Name": "cardProgress",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 457,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_progress_background.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 41,
+            "Scale9OriginY": 9,
+            "Scale9Width": 44,
+            "Scale9Height": 12,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -63.0,
+            "RightMargin": -63.0,
+            "TopMargin": -15.0,
+            "BottomMargin": -15.0,
+            "Tag": 460,
+            "ActionTag": 1691075611,
+            "Size": {
+              "X": 126.0,
+              "Y": 30.0
+            },
+            "Name": "background",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lobby/lobby_card_progress.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 39,
+            "Scale9OriginY": 7,
+            "Scale9Width": 42,
+            "Scale9Height": 10,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -60.0,
+            "RightMargin": -60.0,
+            "TopMargin": -12.0,
+            "BottomMargin": -12.0,
+            "Tag": 459,
+            "ActionTag": 1439728203,
+            "Size": {
+              "X": 120.0,
+              "Y": 24.0
+            },
+            "Name": "progress",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 12,
+            "LabelText": "0/20",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "fonts/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 32,
+              "G": 40,
+              "B": 45
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -23.5,
+            "RightMargin": -23.5,
+            "TopMargin": -9.0,
+            "BottomMargin": -9.0,
+            "Tag": 458,
+            "ActionTag": -140722587,
+            "Size": {
+              "X": 47.0,
+              "Y": 18.0
+            },
+            "Name": "text",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../../../../fonts/SVN-Supercell Magic.ttf",
+        "../../../../images/lobby/lobby_card_progress.png",
+        "../../../../images/lobby/lobby_card_progress_background.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

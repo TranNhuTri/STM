@@ -1,6 +1,6 @@
 let MapUI = BaseUI.extend({
     ctor: function () {
-        this._super(LOBBY_UI.MAP);
+        this._super(LOBBY_UI.HOME_TAB.MAP);
 
         this.setScale(0.6, 0.6);
 

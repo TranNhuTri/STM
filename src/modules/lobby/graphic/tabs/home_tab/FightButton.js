@@ -1,6 +1,6 @@
 let FightButton = BaseUI.extend({
     ctor: function () {
-        this._super(LOBBY_UI.FIGHT_BUTTON);
+        this._super(LOBBY_UI.HOME_TAB.FIGHT_BUTTON);
 
         this.setScale(0.6, 0.6);
 

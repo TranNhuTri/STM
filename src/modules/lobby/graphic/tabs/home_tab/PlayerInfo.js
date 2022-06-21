@@ -3,7 +3,7 @@ let PlayerInfo = BaseUI.extend({
     _numberOfCups: 0,
 
     ctor: function () {
-        this._super(LOBBY_UI.PLAYER_INFO);
+        this._super(LOBBY_UI.HOME_TAB.PLAYER_INFO);
 
         let node = this._child;
 

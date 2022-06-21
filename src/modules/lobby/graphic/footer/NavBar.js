@@ -20,9 +20,9 @@ let NavBar = cc.Node.extend({
     addNavTabs: function () {
         this._tabs = [];
 
-        let tabConfigs = MAIN_SCENE.NAV_BAR.tabs;
+        let tabConfigs = LOBBY.NAV_BAR.tabs;
         for(let i = 0; i < tabConfigs.length; i++) {
-            let navTab= new NavTab(tabConfigs[i]);
+            let navTab= new NavButton(tabConfigs[i]);
 
             if(navTab.name === "home") {
                 navTab.setActive(true);
@@ -64,19 +64,26 @@ let NavBar = cc.Node.extend({
         return false;
     },
 
+    setTabActive: function (index) {
+        if(index === this._clickedTabIndex) {
+            return;
+        }
+        for(let i = 0; i < this._tabs.length; i++) {
+            if(i !== index) {
+                this._tabs[i].setActive(false);
+                continue;
+            }
+            this._tabs[i].setActive(true);
+            this._clickedTabIndex = i;
+        }
+        this.setTabPosition();
+    },
+
     handleClick: function (sender, type, index) {
-        if(type === ccui.Widget.TOUCH_BEGAN && index !== this._clickedTabIndex) {
+        if(type === ccui.Widget.TOUCH_BEGAN) {
             if(this.isTabRunningAnimation())
                 return;
-            for(let i = 0; i < this._tabs.length; i++) {
-                if(i !== index) {
-                    this._tabs[i].setActive(false);
-                    continue;
-                }
-                this._tabs[i].setActive(true);
-                this._clickedTabIndex = i;
-            }
-            this.setTabPosition();
+            this.setTabActive(index);
         }
     }
 });

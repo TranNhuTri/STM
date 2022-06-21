@@ -16,7 +16,11 @@ let LOBBY_UI = {
     CARD_TAB: {
         CARD_DESK: "ui/lobby/cardTab/cardDesk.json",
         CARD_PANEL: "ui/lobby/cardTab/cardPanel.json",
-        CARD: "ui/lobby/cardTab/card/card.json",
+        CARD: {
+            UI: "ui/lobby/cardTab/card/card.json",
+            MAX_PROGRESS: "images/lobby/lobby_card_progress_max.png",
+        },
         CARD_PROGRESS_BAR: "ui/lobby/cardTab/card/cardProgress.json"
-    }
+    },
+    POP_UP_BACKGROUND: "ui/lobby/popup/popupBackground.json"
 };

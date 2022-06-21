@@ -1,6 +1,6 @@
 let ResourceBar = BaseUI.extend({
     ctor: function (config) {
-        this._super(MAIN_UI.RESOURCE_BAR);
+        this._super(LOBBY_UI.RESOURCE_BAR);
 
         let node = this._child;
 
